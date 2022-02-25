@@ -12,6 +12,6 @@
   * minimun code in source file
   * alternate ways to write `main()`
 * Commants 
-  * Single Line Commants
-  * Multi line Commants
+  * Single Line Commants ` /* */ `
+  * Multi line Commants ` // `
 
