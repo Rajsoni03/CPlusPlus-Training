@@ -10,12 +10,12 @@ or Multiline Comments
 using namespace std;
 
 int main(){	
-	cout  /* THIS IS COUT */ << /* THIS IS << */ "hello World!";	// this is cout
+	cout  /* THIS IS COUT */ << /* THIS IS << */ "hello World!";	// this is string
 
 	cout   </* THIS IS << */<  "hello World!";	
 
-	co/* THIS IS << */ut   <<  "hello World!";	
+	co/* THIS IS cout */ut   <<  "hello World!";	
 
-	cout   <<  "hello /* THIS IS << */ World!";
+	cout   <<  "hello /* This is comment */ World!";
 	return 0;
 }
