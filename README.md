@@ -34,3 +34,11 @@
   * Single Line Commants ` /* */ `
   * Multi line Commants ` // `
 
+## Day 2
+* Source Code Formatting  
+* Program and Process
+* Process Memory Allocation in OS
+* `cout` and `printf`
+* `cout` Concatenation 
+* `endl` and `\n`
+* `cin` and `scanf` 
