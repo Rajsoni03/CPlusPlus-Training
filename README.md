@@ -1,6 +1,6 @@
 # CPlusPlus-Training
 
-## Day 1
+## Day 1 ([PDF](/PDF_Notes/Day-1.pdf))
 * C philosophy (data + algo)
 * Language Growth
 * Compiler 
@@ -34,7 +34,7 @@
   * Single Line Commants ` /* */ `
   * Multi line Commants ` // `
 
-## Day 2
+## Day 2 ([PDF](/PDF_Notes/Day-2.pdf))
 * Source Code Formatting  
 * Program and Process
 * Process Memory Allocation in OS
@@ -43,7 +43,7 @@
 * `endl` and `\n`
 * `cin` and `scanf` 
 
-## Day 3
+## Day 3 ([PDF](/PDF_Notes/Day-3.pdf))
 * preprocessor directives
   * #include <math.h> and <cmath>
   * #define (macro)
