@@ -42,3 +42,20 @@
 * `cout` Concatenation 
 * `endl` and `\n`
 * `cin` and `scanf` 
+
+## Day 3
+* preprocessor directives
+  * #include <math.h> and <cmath>
+  * #define (macro)
+* namespace 
+* using
+* variable declaration  
+  * Identifiers name
+* Integer types
+  * `short`
+  * `int`
+  * `long`
+  * `long long`
+* `sizeof()` operator 
+* limits 
+  
