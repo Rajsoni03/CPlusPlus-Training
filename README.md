@@ -58,4 +58,9 @@
   * `long long`
 * `sizeof()` operator 
 * limits 
-  
+
+## Day 4 ([PDF](/PDF_Notes/Day-4.pdf))
+* `signed` integers
+* `unsigned` integers
+* overflow problem
+* 
