@@ -10,8 +10,12 @@ int main(){
 	cout << "size of long long : " << sizeof(long long) << endl;
 
 	cout << "Max Limit of short : " << SHRT_MAX << endl;
+	cout << "Min Limit of short : " << SHRT_MIN << endl;
 	cout << "Max Limit of int : " << INT_MAX << endl;
+	cout << "Min Limit of int : " << INT_MIN << endl;
 	cout << "Max Limit of long : " << LONG_MAX << endl;
+	cout << "Min Limit of long : " << LONG_MIN << endl;
 	cout << "Max Limit of long long : " << LLONG_MAX << endl;
+	cout << "Min Limit of long long : " << LLONG_MIN << endl;
 	return 0;
 }
