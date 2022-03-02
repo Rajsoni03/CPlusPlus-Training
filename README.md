@@ -65,11 +65,11 @@
 * overflow problem
 
 ## Day 5 ([PDF](/PDF_Notes/Day-5.pdf))
-* variable initlization
-  * C style initlization ` = `
-  * constructor initlization `()`
-  * uniform initlization `{}`
-* Integer Literals
+* variable initialization
+  * C style initialization ` = `
+  * constructor initialization `()`
+  * uniform initialization `{}`
+* integer literals
   * decimal
   * hexadecimal
   * octal
@@ -78,7 +78,7 @@
   * `dec`
   * `hex`
   * `oct`
-* formet specifire in c
+* format specifier in c
   * `%d`
   * `%x`
   * `%o`
