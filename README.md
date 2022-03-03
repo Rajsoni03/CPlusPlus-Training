@@ -82,3 +82,16 @@
   * `%d`
   * `%x`
   * `%o`
+
+
+## Day 6 ([PDF](/PDF_Notes/Day-6.pdf))
+* Memory resources lock and unlock (Garbage value concept)
+* `char`
+  * `wchar_t`
+  * `char16_t`
+  * `char32_t`
+* ASCII
+* Unicode
+* Unicode as identifier
+* `cin.get()`
+* `cout.put()`
