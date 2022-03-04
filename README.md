@@ -95,3 +95,14 @@
 * Unicode as identifier
 * `cin.get()`
 * `cout.put()`
+
+
+## Day 7 ([PDF](/PDF_Notes/Day-7.pdf))
+* floating type
+  * `float`
+  * `double`
+  * `long double`
+* Scientific Notation
+* float limitations
+* float opperations
+* `bool`
