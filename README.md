@@ -106,3 +106,17 @@
 * float limitations
 * float opperations
 * `bool`
+
+## Day 8 ([PDF](/PDF_Notes/Day-8.pdf))
+* `auto`
+* `decltype`
+* `string`
+* Operators
+  * Assignment Operator `=`
+  * Arithmetic Operators `+`, `-`, `*`, `/`, `%`
+  * Compound Operators `+=`, `-=`, `*=`, `/=`, `%=`, `>>=`, `<<=`, `&=`, `^=`, `|=`
+  * Increment and Decrement `++`, `--`
+  * Comparison Operators `==`, `!=`, `>`, `<`, `>=`, `<=` 
+  * Logical Operators `!`, `&&`, `||`
+  * Conditional Ternary Operator `?` 
+  * Precedence of Operators
