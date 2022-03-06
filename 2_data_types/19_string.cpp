@@ -11,19 +11,4 @@ int main(){
 	// string name;
 	// getline(cin, name);
 	// cout << name << endl;
-
-	// char a;
-	// cin.get(a); 
-	// while (a!='\n'){
-	// 	cout.put(a);
-	// 	cin.get(a);
-	// }
-	
-	char a;
-	cin.get(a); 
-	while (a!='\n' && a!=' '){
-		cout.put(a);
-		cin.get(a);
-	}
-
 }
