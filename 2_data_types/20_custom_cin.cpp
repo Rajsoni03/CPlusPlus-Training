@@ -3,22 +3,42 @@ using namespace std;
 
 int main(){
 	
-	// cin << data << endl;
-	// char a;
-	// cin.get(a); 
-	// while (a!='\n'){
-	// 	cout.put(a);
-	// 	cin.get(a);
+	char c;
+	cin.get(c);
+	cout.put(c);
+
+	cin.get(c);
+	cout.put(c);
+
+	cin.get(c);
+	cout.put(c);
+
+	cin.get(c);
+	cout.put(c);
+
+	cin.get(c);
+	cout.put(c);
+
+	cin.get(c);
+	cout.put(c);
+
+	// getline(cin, data);
+	// cout << data << endl;
+	// char c;
+	// cin.get(c);
+	// while(c != '\n'){
+	// 	cout.put(c);
+	// 	cin.get(c);
 	// }
-	
 
-	// cin << data;
-	char a;
-	cin.get(a); 
-	while (a!='\n' && a!=' '){
-		cout.put(a);
-		cin.get(a);
-	}
+	// cin >> data;
+	// cout << data ;
 
+	// char c;
+	// cin.get(c);
+	// while(c != '\n' && c != ' '){
+	// 	cout.put(c);
+	// 	cin.get(c);
+	// }
 
 }
