@@ -9,10 +9,10 @@ using namespace std;
 // 	cout << "Float : " << b*b << endl;
 // 	return b*b;
 // }
-short printSqure(short c){
-	cout << "Short : " << c*c << endl;
-	return c*c;
-}
+// short printSqure(short c){
+// 	cout << "Short : " << c*c << endl;
+// 	return c*c;
+// }
 // long long printSqure(long long d){
 // 	cout << "long long : " << d*d << endl;
 // 	return (d*d >= 100) ? d*d : -1;

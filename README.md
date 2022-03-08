@@ -120,3 +120,31 @@
   * Logical Operators `!`, `&&`, `||`
   * Conditional Ternary Operator `?` 
   * Precedence of Operators
+
+## Day 9 ([PDF](/PDF_Notes/Day-9.pdf))
+* Type Conversion
+* Implicit Type Conversion
+  * Conversion on Initialization
+    * With `=`
+    * With `()`
+    * With `{}`
+  * Conversion in Expessions
+  * Conversion in Passing Arguments
+* Type Casting 
+  * `(type) value`
+  * `type (value)`
+  * `static_cast<type> (value)`
+
+## Day 10 ([PDF](/PDF_Notes/Day-10.pdf))
+* Functions
+* Using a function (Library Functions)
+* User define functions
+  * Function declaration
+  * Function call
+  * Parameters
+  * Return Type 
+* Function Execution
+* Memory Allocation of Local Variables (Stack)
+* Function Variations
+* Ambiguity in function call
+* Type Conversion in Passing Arguments
