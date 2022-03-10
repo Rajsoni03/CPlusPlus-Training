@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-// int printSqure(int a){
-// 	cout << "Int : " << a*a << endl;
-// 	return a*a;
-// }
+int printSqure(int a){
+	cout << "Int : " << a*a << endl;
+	return a*a;
+}
 // float printSqure(float b){
 // 	cout << "Float : " << b*b << endl;
 // 	return b*b;
@@ -31,7 +31,7 @@ int main(){
 
 	//float a = 3424;
 	// cout << printSqure(34.24) << endl; 
-	cout << printSqure(132808) << endl; 
-
+	// cout << printSqure(44E10) << endl; 
+	cout << printSqure(440000000000) << endl; 
 	return 0;
 }
