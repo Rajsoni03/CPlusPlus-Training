@@ -148,3 +148,22 @@
 * Function Variations
 * Ambiguity in function call
 * Type Conversion in Passing Arguments
+
+## Day 11 ([PDF](/PDF_Notes/Day-11.pdf))
+* Flow Control
+  * if-else
+  * for
+  * while
+  * do while
+  * switch
+* comma `,` operator 
+
+## Day 12 ([PDF](/PDF_Notes/Day-12.pdf))
+* Array
+* array declearation 
+* memory allocation
+* sizeof array
+* indexing
+* initialization 
+  * uniform initialization `{}`
+* default value 
