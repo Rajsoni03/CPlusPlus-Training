@@ -167,3 +167,13 @@
 * initialization 
   * uniform initialization `{}`
 * default value 
+
+
+## Day 13 ([PDF](/PDF_Notes/Day-13.pdf))
+* Function 
+  * Pass by value
+  * Pass by Referance
+* Array Traversal
+* For each loop / range based for loop
+* Aliasing in for loop
+* Pass array in function parameters
