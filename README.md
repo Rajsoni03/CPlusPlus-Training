@@ -177,3 +177,10 @@
 * For each loop / range based for loop
 * Aliasing in for loop
 * Pass array in function parameters
+
+
+## Day 14 ([PDF](/PDF_Notes/Day-14.pdf))
+* Charactor Array
+* null charactor `\0`
+* Create length function
+* Create copy function

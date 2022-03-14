@@ -13,7 +13,6 @@ int length(char arr[]){
 
 bool arrCpy(const char src[], char dst[]){
 
-
 	return true;
 	// return false;
 }
