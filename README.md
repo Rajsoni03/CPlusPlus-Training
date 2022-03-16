@@ -182,5 +182,15 @@
 ## Day 14 ([PDF](/PDF_Notes/Day-14.pdf))
 * Charactor Array
 * null charactor `\0`
-* Create length function
-* Create copy function
+* Create length function (strlen)
+
+
+## Day 15 ([PDF](/PDF_Notes/Day-15.pdf))
+* Create copy function (strcpy)
+* Create comparison function (strcmp)
+* Create concatenate function (strcat)
+* memory allocation in stack
+* address of operator `&`
+* pointers declearation 
+* dereference operator `*`
+* create pointer using integer variable
