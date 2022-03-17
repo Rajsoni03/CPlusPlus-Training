@@ -13,10 +13,8 @@ int main(){
 
 	cout << *ptr << endl;	
 
-
 	*ptr = 11;
 	cout << a << endl;
-
 
 	return 0;
 }
