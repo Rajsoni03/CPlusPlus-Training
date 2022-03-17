@@ -194,3 +194,21 @@
 * pointers declearation 
 * dereference operator `*`
 * create pointer using integer variable
+
+
+#  Day 16 ([PDF](/PDF_Notes/Day-16.pdf))
+* Pointers memory resloving
+* Pointers arithmetics
+  * `ptr++`
+  * `ptr--`
+  * `*ptr++`
+  * `*(ptr++)`
+  * `(*ptr)++`
+  * `++*ptr`
+  * `*++ptr`
+  * `*(++ptr)`
+  * `++*ptr++`
+  * `(++*ptr)++`
+  * `++(*ptr++)`
+  * `++*--ptr++`
+  
