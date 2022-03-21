@@ -3,25 +3,26 @@ using namespace std;
 
 int main(){
 	int a = 10;
-	int b = 20;
+	double b = 20;
 	int c = 30;
 
 	int *p = &a;
-	int *q = &b;
+	double *q = &b;
 	int *r = &c;
 
-	// cout << &a << endl;
-	// cout << &b << endl;
-	// cout << &c << endl << endl;
+	cout << &a << endl;
+	cout << &b << endl;
+	cout << &c << endl << endl;
 
 	// cout << &p << endl;
 	// cout << &q << endl;
 	// cout << &r << endl << endl;
 
-	q--;
+	// q--;
 	q++;
 
-	cout << *q << endl;
+	cout << sizeof q << endl;
+	cout << q << endl;
 
 	return 0;
 }

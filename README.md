@@ -212,3 +212,9 @@
   * `++(*ptr++)`
   * `++*--ptr++`
   
+
+#  Day 17 ([PDF](/PDF_Notes/Day-17.pdf))
+* Array Pointers 
+* Array element access using pointers
+* Pointer in function return type
+* Dynemic memory allocation `new`* 
