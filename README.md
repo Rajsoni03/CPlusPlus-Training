@@ -218,3 +218,15 @@
 * Array element access using pointers
 * Pointer in function return type
 * Dynemic memory allocation `new`* 
+
+
+#  Day 18 ([PDF](/PDF_Notes/Day-18.pdf))
+* Const Pointers 
+```C++
+const int* ptr = &var;
+int* const  ptr = &var;
+const int* const ptr = &var;
+```
+* Deallocate Dynamic memory 
+  * `delete`
+  * `delete[]`
