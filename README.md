@@ -227,6 +227,29 @@ const int* ptr = &var;
 int* const  ptr = &var;
 const int* const ptr = &var;
 ```
+```C++
+// Both are same
+const int *ptr = &var;
+int const *ptr = &var;
+```
 * Deallocate Dynamic memory 
   * `delete`
   * `delete[]`
+
+#  Day 19 ([PDF](/PDF_Notes/Day-19.pdf))
+* Add element to static Array
+* Add element to dynamic Array
+* Pointer to Pointers
+* String 
+  * initialization
+  * `size()`
+  * `length()`
+  * `at()`
+  * `operator[]`
+  * `front()`
+  * `back()`
+  * `operator+=`
+  * `append()`
+  * `insert()`
+  * `push_back()`
+  * `pop_back()`
