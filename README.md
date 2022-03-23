@@ -236,7 +236,7 @@ int const *ptr = &var;
   * `delete`
   * `delete[]`
 
-#  Day 19 ([PDF](/PDF_Notes/Day-19.pdf))
+# Day 19 ([PDF](/PDF_Notes/Day-19.pdf))
 * Add element to static Array
 * Add element to dynamic Array
 * Pointer to Pointers
@@ -253,3 +253,14 @@ int const *ptr = &var;
   * `insert()`
   * `push_back()`
   * `pop_back()`
+
+# Day 20 ([PDF](/PDF_Notes/Day-20.pdf))
+* 2D Array
+  * Declaration 
+  * Initialization 
+  * Uniform Initialization 
+  * Memory Allocation
+* 2D Array with pointerm
+  * Different size array
+  * Non-continous memory allocation
+* Multi Dimentional Array

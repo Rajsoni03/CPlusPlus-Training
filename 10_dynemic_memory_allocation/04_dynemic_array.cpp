@@ -36,7 +36,7 @@ int *arr = new int[size];
 void add_dynemic(int ele){
     // Start Code Here
     
-
+    
     // End Code Here
     for (int i = 0; i < size; i++){
         cout << arr[i] << "  ";
