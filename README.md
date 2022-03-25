@@ -263,4 +263,4 @@ int const *ptr = &var;
 * 2D Array with pointerm
   * Different size array
   * Non-continous memory allocation
-* Multi Dimentional Array
+* Multi Dimentional Array 
