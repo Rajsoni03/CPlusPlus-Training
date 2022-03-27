@@ -238,7 +238,6 @@ int const *ptr = &var;
 
 # Day 19 ([PDF](/PDF_Notes/Day-19.pdf))
 * Add element to static Array
-* Add element to dynamic Array
 * Pointer to Pointers
 * String 
   * initialization
@@ -264,3 +263,7 @@ int const *ptr = &var;
   * Different size array
   * Non-continous memory allocation
 * Multi Dimentional Array 
+
+# Day 21 ([PDF](/PDF_Notes/Day-21.pdf))
+* Add element to dynamic Array (vector)
+* remove element to dynamic Array (vector)
