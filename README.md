@@ -267,3 +267,14 @@ int const *ptr = &var;
 # Day 21 ([PDF](/PDF_Notes/Day-21.pdf))
 * Add element to dynamic Array (vector)
 * remove element to dynamic Array (vector)
+
+# Day 21 ([PDF](/PDF_Notes/Day-21.pdf))
+* Structure - `struct`
+  * Declaration 
+  * List Initialization 
+  * Uniform Initialization 
+  * Global and Local Struct
+  * Unnamed Struct
+  * Memory Allocation / Size of Struct
+  * Array of Struct (SOA)
+  * Struct of Array (AOS)
