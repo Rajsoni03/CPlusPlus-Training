@@ -268,7 +268,7 @@ int const *ptr = &var;
 * Add element to dynamic Array (vector)
 * remove element to dynamic Array (vector)
 
-# Day 21 ([PDF](/PDF_Notes/Day-21.pdf))
+# Day 22 ([PDF](/PDF_Notes/Day-22.pdf))
 * Structure - `struct`
   * Declaration 
   * List Initialization 
@@ -278,3 +278,22 @@ int const *ptr = &var;
   * Memory Allocation / Size of Struct
   * Array of Struct (SOA)
   * Struct of Array (AOS)
+  * Struct Pointer
+  * `->` operator
+  * Struct in heap
+
+# Day 23 ([PDF](/PDF_Notes/Day-23.pdf))
+* Union - `union`
+  * Declaration 
+  * Initialization 
+  * Memory Allocation / Size of Union
+  * Example of union
+  * Unnamed Union
+  * Nested Union
+  * Anonymous Union
+* Enumeration - `enum`
+  * Declaration 
+  * Initialization
+  * Enum to int 
+  * Anonymous Enum
+  * Enum class
