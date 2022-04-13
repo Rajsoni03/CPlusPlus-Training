@@ -297,3 +297,9 @@ int const *ptr = &var;
   * Enum to int 
   * Anonymous Enum
   * Enum class
+
+# Day 24 ([PDF](/PDF_Notes/Day-24.pdf))
+* revision of dynamic array
+  * add element
+  * remove element
+  * double the size 
