@@ -303,3 +303,8 @@ int const *ptr = &var;
   * add element
   * remove element
   * double the size 
+* vector example
+  * `push_back()`
+  * `pop_back()`
+  * `size()`
+  * `capacity()`
