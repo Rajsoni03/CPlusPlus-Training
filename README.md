@@ -308,3 +308,21 @@ int const *ptr = &var;
   * `pop_back()`
   * `size()`
   * `capacity()`
+
+# Day 25 ([PDF](/PDF_Notes/Day-25.pdf))
+* `cstring` header
+  * `strlen()`
+  * `strcpy()`
+  * `strcmp()`
+  * `strcat()`
+  * `strchr()`
+* `cctype` header
+  * `isalnum()`
+  * `isalpha()`
+  * `isdigit()`
+  * `islower()`
+  * `isupper()`
+  * `ispunct()`
+  * `isspace()`
+  * `toupper()`
+  * `tolower()`
