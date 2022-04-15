@@ -326,3 +326,22 @@ int const *ptr = &var;
   * `isspace()`
   * `toupper()`
   * `tolower()`
+
+
+# Day 26 ([PDF](/PDF_Notes/Day-26.pdf))
+* file handling 
+  * `ofstream`
+    * `open()` method
+    * open using constructor call
+    * create file / overwrite file
+    * write using `<<` operator
+    * append text using `ios::app`
+    * `close()` method
+    * create `csv` file
+  * `ifstream`
+    * `open()` method
+    * open using constructor call
+    * read file using `>>` operator
+    * read lines using `getline()`
+    * create function for read a specific line
+    * read data from `csv` filearee 
