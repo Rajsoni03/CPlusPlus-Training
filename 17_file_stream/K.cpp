@@ -12,38 +12,9 @@ struct student{
 };
 
 student readdata(string fileName, int line){
-	string str;
-	ifstream myfile(fileName);
+	// start code here
 
-	while(line--){ // skip lines
-		getline(myfile, str);
-	}
-	getline(myfile, str); // copy desired line to str
-	myfile.close();
-
-	student s; // create empty struct variable
-
-	int start = 0;
-	int end = str.find(',');
-	int len = end - start;
-	s.fname = str.substr(start, len);
-
-	start = end+1;
-	end = str.find(',', start);
-	len = end - start;
-	s.lname = str.substr(start, len);
-
-	start = end+1;
-	end = str.find(',', start);
-	len = end - start;
-	s.age = stoi(str.substr(start, len));
-
-	start = end+1;
-	end = str.find(',', start);
-	len = end - start;
-	s.email = str.substr(start, len);
-
-	return s;
+	
 }
 
 int main(){
