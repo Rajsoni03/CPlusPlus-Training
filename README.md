@@ -345,3 +345,17 @@ int const *ptr = &var;
     * read lines using `getline()`
     * create function for read a specific line
     * read data from `csv` filearee 
+
+# Day 27 ([PDF](/PDF_Notes/Day-27.pdf))
+* File Handling 
+  * read string and convert to structure 
+  * implement search function for file
+  * `fstream`
+    * `ios::in`
+    * `ios::out`
+    * `ios::app`
+  * read and write at same time
+  * `eof()`
+  * `fail()`
+  * `good()`
+  * `bad()`

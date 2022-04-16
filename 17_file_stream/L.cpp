@@ -5,15 +5,16 @@
 using namespace std;
 
 struct student{
+	int id;
 	string fname;
 	string lname;
 	int age;
 	string email;
 };
 
-student readdata(string fileName, int line){
+student readdata(int line){
 	string str;
-	ifstream myfile(fileName);
+	ifstream myfile("db.csv");
 
 	while(line--){ // skip lines
 		getline(myfile, str);
@@ -21,14 +22,16 @@ student readdata(string fileName, int line){
 	getline(myfile, str); // copy desired line to str
 	myfile.close();
 
-	// str = "sachin,gupta,20,sachin@gmail.com\0";
-	// 	                      ^               ^
-
 	student s; // create empty struct variable
 
 	int start = 0;
-	int end = str.find(',', start); // 6
-	int len = end - start;   // 6 - 0 = 6
+	int end = str.find(',', start); 
+	int len = end - start;   
+	s.id = stoi(str.substr(start, len));
+
+	start = end + 1;
+	end = str.find(',', start); // 6
+	len = end - start;   // 6 - 0 = 6
 	s.fname = str.substr(start, len);
 
 	start = end+1;  // 6 + 1 = 7
@@ -49,13 +52,31 @@ student readdata(string fileName, int line){
 	return s;
 }
 
-int main(){
-	student S = readdata("db.csv", 1);
+student searchByID(int id){
+	for (int i = 0; i < 6; i++){
+		student S = readdata(i);
+		if (S.id == id){
+			return S;
+		}
+	}
+	student S;
+	return S;	
+}
+
+student searchByEmail(string email){
 	
+}
+
+int main(){
+	student S = searchByID(2);
+	// student S = readdata(0);
+	
+	cout << S.id << endl;
 	cout << S.fname << endl;
 	cout << S.lname << endl;
 	cout << S.age << endl;
-	cout << S.email << endl;
+	cout << S.email << endl << endl;
+
 
 	return 0;
 }
