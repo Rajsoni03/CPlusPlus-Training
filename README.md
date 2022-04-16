@@ -327,6 +327,8 @@ int const *ptr = &var;
   * `toupper()`
   * `tolower()`
 
+# Assignment Test 1 ([PDF](/Assignment_1/Assignment_Questions.pdf))
+
 
 # Day 26 ([PDF](/PDF_Notes/Day-26.pdf))
 * file handling 
