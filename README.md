@@ -329,7 +329,6 @@ int const *ptr = &var;
 
 # Assignment Test 1 ([PDF](/Assignment_1/Assignment_Questions.pdf))
 
-
 # Day 26 ([PDF](/PDF_Notes/Day-26.pdf))
 * file handling 
   * `ofstream`
@@ -361,3 +360,14 @@ int const *ptr = &var;
   * `fail()`
   * `good()`
   * `bad()`
+
+# Project 1 ([Open Details](/Project/BankApplication.cpp))
+
+# Day 28 ([PDF](/PDF_Notes/Day-28.pdf))
+  * Function Prototypes
+  * Functions to process array (const pointers)
+  * Function using Array Ranges
+  * Return c-string 
+  * Recursion 
+
+  
