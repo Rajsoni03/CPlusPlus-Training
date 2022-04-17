@@ -361,13 +361,13 @@ int const *ptr = &var;
   * `good()`
   * `bad()`
 
-# Project 1 ([Open Details](/Project/BankApplication.cpp))
+# Project 1 - Bank Application
+* ([Open Details](/Project/BankApplication.cpp))
 
 # Day 28 ([PDF](/PDF_Notes/Day-28.pdf))
-  * Function Prototypes
-  * Functions to process array (const pointers)
-  * Function using Array Ranges
-  * Return c-string 
-  * Recursion 
-
+* Function Prototypes
+* Functions to process array (const pointers)
+* Function using Array Ranges
+* Return c-string 
+* Recursion 
   
