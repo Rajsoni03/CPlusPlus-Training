@@ -327,7 +327,9 @@ int const *ptr = &var;
   * `toupper()`
   * `tolower()`
 
-# Assignment Test 1 ([PDF](/Assignment_1/Assignment_Questions.pdf))
+# Assignment Test 1 
+* ([Questions](/Assignment_1/Assignment_Questions.pdf))
+* ([Result](/Assignment_1/Result.pdf))
 
 # Day 26 ([PDF](/PDF_Notes/Day-26.pdf))
 * file handling 
@@ -370,4 +372,4 @@ int const *ptr = &var;
 * Function using Array Ranges
 * Return c-string 
 * Recursion 
-  
+
