@@ -196,7 +196,7 @@
 * create pointer using integer variable
 
 
-#  Day 16 ([PDF](/PDF_Notes/Day-16.pdf))
+## Day 16 ([PDF](/PDF_Notes/Day-16.pdf))
 * Pointers memory resloving
 * Pointers arithmetics
   * `ptr++`
@@ -213,14 +213,14 @@
   * `++*--ptr++`
   
 
-#  Day 17 ([PDF](/PDF_Notes/Day-17.pdf))
+##  Day 17 ([PDF](/PDF_Notes/Day-17.pdf))
 * Array Pointers 
 * Array element access using pointers
 * Pointer in function return type
 * Dynemic memory allocation `new`* 
 
 
-#  Day 18 ([PDF](/PDF_Notes/Day-18.pdf))
+## Day 18 ([PDF](/PDF_Notes/Day-18.pdf))
 * Const Pointers 
 ```C++
 const int* ptr = &var;
@@ -236,7 +236,7 @@ int const *ptr = &var;
   * `delete`
   * `delete[]`
 
-# Day 19 ([PDF](/PDF_Notes/Day-19.pdf))
+## Day 19 ([PDF](/PDF_Notes/Day-19.pdf))
 * Add element to static Array
 * Pointer to Pointers
 * String 
@@ -253,7 +253,7 @@ int const *ptr = &var;
   * `push_back()`
   * `pop_back()`
 
-# Day 20 ([PDF](/PDF_Notes/Day-20.pdf))
+## Day 20 ([PDF](/PDF_Notes/Day-20.pdf))
 * 2D Array
   * Declaration 
   * Initialization 
@@ -264,11 +264,11 @@ int const *ptr = &var;
   * Non-continous memory allocation
 * Multi Dimentional Array 
 
-# Day 21 ([PDF](/PDF_Notes/Day-21.pdf))
+## Day 21 ([PDF](/PDF_Notes/Day-21.pdf))
 * Add element to dynamic Array (vector)
 * remove element to dynamic Array (vector)
 
-# Day 22 ([PDF](/PDF_Notes/Day-22.pdf))
+## Day 22 ([PDF](/PDF_Notes/Day-22.pdf))
 * Structure - `struct`
   * Declaration 
   * List Initialization 
@@ -282,7 +282,7 @@ int const *ptr = &var;
   * `->` operator
   * Struct in heap
 
-# Day 23 ([PDF](/PDF_Notes/Day-23.pdf))
+## Day 23 ([PDF](/PDF_Notes/Day-23.pdf))
 * Union - `union`
   * Declaration 
   * Initialization 
@@ -298,7 +298,7 @@ int const *ptr = &var;
   * Anonymous Enum
   * Enum class
 
-# Day 24 ([PDF](/PDF_Notes/Day-24.pdf))
+## Day 24 ([PDF](/PDF_Notes/Day-24.pdf))
 * revision of dynamic array
   * add element
   * remove element
@@ -309,7 +309,7 @@ int const *ptr = &var;
   * `size()`
   * `capacity()`
 
-# Day 25 ([PDF](/PDF_Notes/Day-25.pdf))
+## Day 25 ([PDF](/PDF_Notes/Day-25.pdf))
 * `cstring` header
   * `strlen()`
   * `strcpy()`
@@ -327,11 +327,11 @@ int const *ptr = &var;
   * `toupper()`
   * `tolower()`
 
-# Assignment Test 1 
-* ([Questions](/Assignment_1/Assignment_Questions.pdf))
-* ([Result](/Assignment_1/Result.pdf))
+## Assignment Test 1 
+* [Questions](/Assignment_1/Assignment_Questions.pdf)
+* [Result](/Assignment_1/Result.pdf)
 
-# Day 26 ([PDF](/PDF_Notes/Day-26.pdf))
+## Day 26 ([PDF](/PDF_Notes/Day-26.pdf))
 * file handling 
   * `ofstream`
     * `open()` method
@@ -349,7 +349,7 @@ int const *ptr = &var;
     * create function for read a specific line
     * read data from `csv` filearee 
 
-# Day 27 ([PDF](/PDF_Notes/Day-27.pdf))
+## Day 27 ([PDF](/PDF_Notes/Day-27.pdf))
 * File Handling 
   * read string and convert to structure 
   * implement search function for file
@@ -363,13 +363,16 @@ int const *ptr = &var;
   * `good()`
   * `bad()`
 
-# Project 1 - Bank Application
-* ([Open Details](/Project/BankApplication.cpp))
+## Project 1 - Bank Application
+* [Open Details](/Project/BankApplication.cpp)
 
-# Day 28 ([PDF](/PDF_Notes/Day-28.pdf))
+## Day 28 ([PDF](/PDF_Notes/Day-28.pdf))
 * Function Prototypes
 * Functions to process array (const pointers)
 * Function using Array Ranges
 * Return c-string 
 * Recursion 
+
+## Assignment Test 2
+* [Questions](/Assignment_2/Assignment_Questions.pdf)
 
