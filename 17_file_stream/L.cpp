@@ -64,11 +64,19 @@ student searchByID(int id){
 }
 
 student searchByEmail(string email){
-	
+	for (int i = 0; i < 6; i++){
+		student S = readdata(i);
+		if (S.email == email){
+			return S;
+		}
+	}	
+	student S;
+	return S;
 }
 
 int main(){
-	student S = searchByID(2);
+	// student S = searchByID(2);
+	student S = searchByEmail("wrong@gmail.com");
 	// student S = readdata(0);
 	
 	cout << S.id << endl;

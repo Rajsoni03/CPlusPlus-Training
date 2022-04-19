@@ -1,23 +1,23 @@
 #include <iostream>
 using namespace std;
 
-inline int sum(int a, int b){
-	return a + b;
+int sum(int a, int b){	return a+b; }
+int sub(int a, int b){	return a-b; }
+int mul(int a, int b){	return a*b; }
+int dev(int a, int b){ 	return a/b; }
+
+int calculate(int a, int b, int (*func)(int, int)){
+	// return (*func)(a, b);
+	return func(a, b);
 }
 
 int main(){
-	int a = 10;
-	int b = 20;
-	cout << sum(a, b) << endl; // cout << a + b << endl;
-	cout << sum(a, b) << endl; // cout << a + b << endl;
-	cout << sum(a, b) << endl; // cout << a + b << endl;
+	int (*s)(int, int) = sum;
+
+	cout << calculate(10, 20, s) << endl;
+	cout << calculate(10, 20, sub) << endl;
+	cout << calculate(10, 20, mul) << endl;
+	cout << calculate(10, 20, dev) << endl;
 
 	return 0;
 }
-
-// op
-// call -> address
-// copy - a
-// copy - b
-// a + b
-// return 

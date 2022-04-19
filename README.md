@@ -379,3 +379,9 @@ int const *ptr = &var;
 ## Day 29 ([PDF](/PDF_Notes/Day-29.pdf))
 * Pointer to Function
 
+## Day 30 ([PDF](/PDF_Notes/Day-30.pdf))
+* Inline Function
+* Macro Function
+* const reference in parameter
+* return reference 
+
