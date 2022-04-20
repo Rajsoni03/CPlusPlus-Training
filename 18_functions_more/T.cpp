@@ -7,20 +7,26 @@ int & allocateMem(int x){
 }
 
 int main(){
-	// int z = 10;
+	int z = 10;
 	// int *p = &z; // address
 	// int a = z; // value	
 
-	int a = allocateMem(10); // value XXX
-	int *p = &allocateMem(10); // address
+	int &a = allocateMem(10); // value (name the heap memory)
+	int *p = &allocateMem(20); // address
 
 	cout << a << endl;
 	cout << *p << endl;
 
-	*p = 20;
+	int *pa = &a;
+	delete pa;
 
+	cout << &z << endl;
+	cout << &a << endl;
+	cout << p << endl;
+
+	cout << z << endl;
 	cout << a << endl;
-	cout << *p << endl;	
+	cout << *p << endl;
 
 	return 0;
 }

@@ -382,6 +382,12 @@ int const *ptr = &var;
 ## Day 30 ([PDF](/PDF_Notes/Day-30.pdf))
 * Inline Function
 * Macro Function
-* const reference in parameter
-* return reference 
+* Const reference in parameter
+* Return reference 
 
+## Day 31 ([PDF](/PDF_Notes/Day-31.pdf))
+* Return pointer
+* Default Arguments
+* Function Templates
+* Explicit Specialization 
+* Trailing return type `->`
