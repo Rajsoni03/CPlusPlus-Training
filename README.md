@@ -391,3 +391,21 @@ int const *ptr = &var;
 * Function Templates
 * Explicit Specialization 
 * Trailing return type `->`
+
+## Day 32 ([PDF](/PDF_Notes/Day-32.pdf))
+* Namespace
+  * `namespace`
+  * scope resolution operator `::`
+  * `using`
+  * namespace aliasing
+* Classes
+  * `class` declaration
+  * `class` vs `struct`
+  * member variables
+  * member methods
+  * object
+  * access modifiers
+    * public 
+    * private
+    * protected
+    
