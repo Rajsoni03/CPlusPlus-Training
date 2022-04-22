@@ -409,3 +409,11 @@ int const *ptr = &var;
     * private
     * protected
     
+## Day 33 ([PDF](/PDF_Notes/Day-33.pdf))
+* Constructor
+  * Default Constructor
+  * Parameterized Constructor
+* Constructor Overloading
+* `this` pointer
+* Data Hiding
+* Encapsulation
