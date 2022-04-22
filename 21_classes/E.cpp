@@ -43,6 +43,6 @@ int main(){
 
 	display(samsung);
 	display(iphone);
-
+	// display("hello");
 	return 0;
 }

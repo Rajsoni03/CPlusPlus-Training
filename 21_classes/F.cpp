@@ -45,5 +45,7 @@ int main(){
 	samsung.display();
 	iphone.display();
 
+	// display();
+
 	return 0;
 }
