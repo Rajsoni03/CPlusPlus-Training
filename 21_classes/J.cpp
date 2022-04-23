@@ -37,8 +37,7 @@ int main(){
 	// a1.acc_no = 1;
 	// a1._ammount = 100;
 
-
-	a1._ammount = 200;
+	// a1._ammount = 200;
 
 	a1.info();
 

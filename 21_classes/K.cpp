@@ -51,20 +51,20 @@ class Account{
 
 int main(){
 
-	Account a1("raj", 1, 100, 1234);
+	Account a1("raj", 1, 100, 0000);
 
-	a1.name = "Rajkumar";
-	a1.acc_no = 200;
+	// a1.name = "Rajkumar";
+	// a1.acc_no = 200;
 
 	// cout << a1._ammount << endl;
-	cout << a1.get_ammount(1234) << endl;
+	cout << a1.get_ammount(0000) << endl;
 
 	// a1.get_ammount(1234) = 2090;
 
 	// a1._ammount = 200;
 	// a1.set_ammount(300);
 
-	a1.info(1234);
+	a1.info(0000);
 
 	return 0;
 }

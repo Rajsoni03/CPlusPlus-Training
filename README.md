@@ -417,3 +417,22 @@ int const *ptr = &var;
 * `this` pointer
 * Data Hiding
 * Encapsulation
+
+## Day 34 ([PDF](/PDF_Notes/Day-34.pdf))
+* Object initialization
+```C++
+  Cube c1;        // Default Constructor
+  Cube c2();      // Function Declaration (Object Not Created)
+  Cube c3(10);    // Parameterized Constructor
+  Cube c4{};      // Uniform Initialization with Default Constructor
+  Cube c5{10};    // Uniform Initialization with Parameterized Constructor
+  Cube c6 = {};   // Assignment Initialization with Default Constructor
+  Cube c7 = {10}; // Assignment Initialization with Parameterized Constructor
+  Cube c8 = 10;   // Default Constructor (works if class have only one data member)
+```
+* Distructor 
+* Object in heap using `new` & `delete`
+* Life of an Object 
+  * In block
+  * In stack
+  * In heap

@@ -9,6 +9,7 @@ class Human{
 		string aka;
 		int age;
 
+		// Human(){};
 		Human(){ // Default Constructor
 			cout << "Object is created" << endl;
 			fname = "";
@@ -16,7 +17,6 @@ class Human{
 			aka = "";
 			age = 0;
 		}
-
 };
 
 int main(){

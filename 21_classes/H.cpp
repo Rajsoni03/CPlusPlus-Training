@@ -16,6 +16,7 @@ class Human{
 		}
 
 		Human(string fname, string lname, string aka, int age){ // Parameterized Constructor
+			// (*this).fname = fname;
 			(*this).fname = fname;
 			(*this).lname = lname;
 			this->aka = aka;
