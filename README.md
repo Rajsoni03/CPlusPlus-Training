@@ -436,3 +436,11 @@ int const *ptr = &var;
   * In block
   * In stack
   * In heap
+
+## Day 35 - Extra Class ([PDF](/PDF_Notes/Day-35.pdf))
+* Return array of string
+* `getline()` vs `cin.getline()`
+* Return address of local stack variable
+* Access the value of deallocated memory 
+  * In Stack
+  * In Heap
