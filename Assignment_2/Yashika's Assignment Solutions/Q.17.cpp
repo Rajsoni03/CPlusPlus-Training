@@ -4,8 +4,7 @@
 #include<ctype.h>
 using namespace std;
 
-int main()
-{
+int main(){
     const char ch[] = "q";
     char text[100]= "";
 
@@ -21,26 +20,25 @@ int main()
         cout<<"Your string is : "<<text<<endl;
         count+=1;
     }
-    for(int i=0;i<count;i++){
-    if(text[i]!='/0'){
-       if(isalpha(text[i])!=0){
-        if((text[i]='a')||(text[i]='e')||(text[i]='i')||(text[i]='o')||(text[i]='u')){
-            vowel+=1;
-        }
-        else{
-            consonant+=1;
-        }
 
-       }
-       else{
-        other+=1;
-       }
-    }
+    for(int i=0;i<count;i++){
+        if(text[i]!='\0'){
+            if(isalpha(text[i])!=0){
+                if((text[i]='a')||(text[i]='e')||(text[i]='i')||(text[i]='o')||(text[i]='u')){
+                    vowel+=1;
+                }
+                else{
+                    consonant+=1;
+                }
+            }
+            else{
+                other+=1;
+            }
+        }
     }
     cout<<vowel<<endl;
     cout<<consonant<<endl;
     cout<<other<<endl;
-
 
     cout << "Hello world!" << endl;
     return 0;

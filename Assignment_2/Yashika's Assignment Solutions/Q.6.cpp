@@ -6,12 +6,12 @@ void sales(int a,int arr1[][12]){
     char *month[]={"January","February","March","April","May","June","July","August","September","October","November","December"};
 
     for(int j=0;j<3;j++){
-            cout<<"Enter the sales of year "<<j+1<<" : "<<endl;
-    for(i=0;i<12;i++){
-        cout<<"Enter the worth (no. of books sold)in "<<month[i]<<endl;
-        cin>>a;
-        arr1[j][i]=a;
-    }
+        cout<<"Enter the sales of year "<<j+1<<" : "<<endl;
+        for(i=0;i<12;i++){
+            cout<<"Enter the worth (no. of books sold)in "<<month[i]<<endl;
+            cin>>a;
+            arr1[j][i]=a;
+        }
     cout<<endl;
 
     }

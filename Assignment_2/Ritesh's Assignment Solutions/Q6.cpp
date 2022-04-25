@@ -4,8 +4,8 @@ using namespace std;
 
 int main (){
 	string year3 [3][12]={{"JAN", "FEB","MAR", "APR", "MAY", "JUN", "JULY", "AUG", "SEP", "OCT", "NOV", "DEC"},
-							{"JAN", "FEB","MAR", "APR", "MAY", "JUN", "JULY", "AUG", "SEP", "OCT", "NOV", "DEC"},
-							{"JAN", "FEB","MAR", "APR", "MAY", "JUN", "JULY", "AUG", "SEP", "OCT", "NOV", "DEC"}};
+						  {"JAN", "FEB","MAR", "APR", "MAY", "JUN", "JULY", "AUG", "SEP", "OCT", "NOV", "DEC"},
+						  {"JAN", "FEB","MAR", "APR", "MAY", "JUN", "JULY", "AUG", "SEP", "OCT", "NOV", "DEC"}};
 	int sell [3][12];
 	int threeYsum=0;
 	for(int i=0; i<3; i++){

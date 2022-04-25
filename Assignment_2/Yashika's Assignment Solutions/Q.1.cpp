@@ -1,12 +1,12 @@
 #include <iostream>
-
 using namespace std;
+
 int addition (int a, int b){
     int i;
     int j;
     int sum=0;
     int add=0;
-if(a>b){
+    if(a>b){
          i=b;
          while (i<=a){
          sum+=i;//2;5

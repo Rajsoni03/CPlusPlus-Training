@@ -9,20 +9,17 @@ int main()
     int a;
     int count =0;
 
- cout<<"Donation 1: ";
- while (count < 10 && cin >> donations[count]) {
+    cout<<"Donation 1: ";
+    while (count < 10 && cin >> donations[count]) {
         if (++count < 10) {
             cout << "Donation " << count+1 << ": ";
         }
     }
-        for (int i = 0; i < count; i++) {
-            totaldonations += donations[i];
-        }
-
-        double average = totaldonations / count;
-
+    for (int i = 0; i < count; i++) {
+        totaldonations += donations[i];
+    }
+    double average = totaldonations / count;
     cout << "Average Donation: " << average << endl;
-
     int largerThanAverage = 0;
 
     for (int j = 0; j < count; j++) {
@@ -30,8 +27,7 @@ int main()
             largerThanAverage++;
         }
     }
-
-     cout << "Number of donations larger than the average: " << largerThanAverage << endl;
+    cout << "Number of donations larger than the average: " << largerThanAverage << endl;
 
     return 0;
 }

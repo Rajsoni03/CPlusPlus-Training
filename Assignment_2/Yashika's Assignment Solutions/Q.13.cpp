@@ -1,11 +1,10 @@
 #include <iostream>
-
 using namespace std;
 
 void menu(){
- cout<<"Please enter one of the following choices: "<<endl;
- cout<<"c) carnivore"<<"                        "<<"p) pianist"<<endl;
- cout<<"t) tree"<<"                             "<<"g) game"<<endl;
+  cout<<"Please enter one of the following choices: "<<endl;
+  cout<<"c) carnivore"<<"                        "<<"p) pianist"<<endl;
+  cout<<"t) tree"<<"                             "<<"g) game"<<endl;
 }
 
 void select(char a){
@@ -14,7 +13,6 @@ void select(char a){
   case 'c':
      cout<<"A maple is a carnivore ."<<endl;
      break;
-
   //case 'P':
   case 'p':
      cout<<"A maple is a pianist ."<<endl;
@@ -34,13 +32,12 @@ void select(char a){
     select(a);
     break;
  }
-
 }
-int main()
-{
-    char ch;
-    menu();
-    cin>>ch;
-    select(ch);
-    return 0;
+
+int main(){
+  char ch;
+  menu();
+  cin>>ch;
+  select(ch);
+  return 0;
 }

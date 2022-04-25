@@ -11,7 +11,7 @@ int main()
 
     int count = 0;
 
-    while (strcmp(text, ch) != 0) {
+    while (strcmp(text, ch) != 0) { // use while(text != ch)
         cin >> text;
         count++;
     }

@@ -375,6 +375,7 @@ int const *ptr = &var;
 
 ## Assignment Test 2
 * [Questions](/Assignment_2/Assignment_Questions.pdf)
+* [Result](/Assignment_2/Result.pdf)
 
 ## Day 29 ([PDF](/PDF_Notes/Day-29.pdf))
 * Pointer to Function
@@ -444,3 +445,13 @@ int const *ptr = &var;
 * Access the value of deallocated memory 
   * In Stack
   * In Heap
+
+## Day 36 - Extra Class ([PDF](/PDF_Notes/Day-36.pdf))
+* Member initialization in constructors
+* Const member 
+  * Enum
+  * Scoped enum
+  * Static
+* Static Variables
+* Static Methods
+* Scope 

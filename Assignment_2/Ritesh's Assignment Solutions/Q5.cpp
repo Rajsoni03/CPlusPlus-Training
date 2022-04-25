@@ -7,7 +7,7 @@ int main (){
 	int sellsum=0;
 	for (int i =0; i<12; i++){
 		cout << "Enter the sell of the month of (No.of books) "<<year[i]<<": ";
-		cin>> sell[i];
+		cin >> sell[i];
 		sellsum+=sell[i];
 	}
 	cout << endl; 

@@ -14,7 +14,6 @@ int main()
 	if(!file)
 	{
 		cout<<"Error in opening file!!!"<<endl;
-
 	}
 
 	while (!file.eof())

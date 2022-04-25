@@ -3,10 +3,10 @@
 using namespace std;
 
 char Q11(int a){
-
 	if(97<=a && a<=122){
 		return char(a-32);
-	}else if(65<=a && a<=90){
+	}
+	else if(65<=a && a<=90){
 		return char(a+32);
 	}
 	return a;
@@ -20,7 +20,7 @@ int main(){
 	int n = info.size();
 	for (int i=0; i<n; i++){
 		if (info[i]==64){
-		break;
+			break;
 		}
 		cout << Q11(info[i]);
 	}
