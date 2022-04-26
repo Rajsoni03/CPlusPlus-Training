@@ -1,4 +1,4 @@
-# CPlusPlus-Training
+# CPlusPlus-Training (In-Depth)
 
 ## Day 1 ([PDF](/PDF_Notes/Day-1.pdf))
 * C philosophy (data + algo)
@@ -455,3 +455,10 @@ int const *ptr = &var;
 * Static Variables
 * Static Methods
 * Scope 
+
+## Day 37 - Extra Class ([PDF](/PDF_Notes/Day-37.pdf))
+* Const Member Functions
+* Copy Constructor
+  * why const in parameter
+  * why &obj in parameter
+
