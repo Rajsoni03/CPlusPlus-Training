@@ -12,17 +12,24 @@ class Cube{
 			cout << "Copy Constructor" << endl;	
 			this->side = obj.side;
 		}
-		
 		void info() const {
 			cout << "Side - " << side << endl;
 		}
 };
 
 int main(){
-	Cube c1(100); // default constructor
+	Cube c1(100); // Default Constructor
+	Cube c2(c1);  // Copy Constructor
 
-	Cube c2(c1);
-	Cube c3(Cube(10));
+	Cube c3;      // Default Constructor
+	c3 = c2;      
+
+	c1.side = 10;
+	c2.side = 20;
+
+	c1.info();
+	c2.info();
+	c3.info();
 
 	return 0;
 }

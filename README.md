@@ -446,7 +446,7 @@ int const *ptr = &var;
   * In Stack
   * In Heap
 
-## Day 36 - Extra Class ([PDF](/PDF_Notes/Day-36.pdf))
+## Day 36 ([PDF](/PDF_Notes/Day-36.pdf))
 * Member initialization in constructors
 * Const member 
   * Enum
@@ -456,9 +456,15 @@ int const *ptr = &var;
 * Static Methods
 * Scope 
 
-## Day 37 - Extra Class ([PDF](/PDF_Notes/Day-37.pdf))
+## Day 37 ([PDF](/PDF_Notes/Day-37.pdf))
 * Const Member Functions
 * Copy Constructor
   * why const in parameter
   * why &obj in parameter
 
+
+## Day 38 ([PDF](/PDF_Notes/Day-38.pdf))
+* Operator Overloading
+  * operator[] for access array element
+  * operator+ for array concat
+* Copy Assignment

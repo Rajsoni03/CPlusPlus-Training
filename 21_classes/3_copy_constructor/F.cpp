@@ -17,17 +17,15 @@ class Cube{
 		}
 };
 
-void display(Cube &c){ // pass by referance
-	c.side = 999;
+void display(const Cube &c){ // create a new object
 	c.info();
 }
 
 int main(){
 	Cube c1(100); // default constructor
 
-	display(c1);
-
-	c1.info();
+	// display(c1);
+	display(Cube(10));
 
 	return 0;
 }
