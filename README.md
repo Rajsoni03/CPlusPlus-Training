@@ -468,3 +468,23 @@ int const *ptr = &var;
   * operator[] for access array element
   * operator+ for array concat
 * Copy Assignment
+
+## Day 39 ([PDF](/PDF_Notes/Day-39.pdf))
+* Inharitance
+  * single 
+  * multilevel
+  * multiple
+  * hierarchical
+  * hybrid
+* visibility mode
+  * public inharitance
+  * protected inharitance
+  * private inharitance
+* constructor call sequence
+* distructor call sequence
+* constructor parameters 
+* variable ambiguity resolution using virtual base class
+* method ambiguity resolution 
+  * using virtual base class
+  * overriding
+  * overriding and scope resolution `::`
