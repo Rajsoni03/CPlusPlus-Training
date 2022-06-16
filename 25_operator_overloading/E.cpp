@@ -60,8 +60,7 @@ int main(){
 	myArr1[2] = 3;
 	myArr1[3] = 4;
 
-
-	Array myBigArray = myArr1 * 2;
+	Array myBigArray = myArr1 * 4;
 
 	for (int i = 0; i < myBigArray.size(); i++){
 		cout << myBigArray[i] << endl;

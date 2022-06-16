@@ -33,9 +33,6 @@ class Array{
 			for (int i = 0; i < this->size(); i++){
 				ansArray[i] = this->arr_[i];
 			}
-			// for (int i = this->size(); i < this->size() + arr2.size(); i++){
-			// 	ansArray[i] = arr2[i - this->size()];
-			// }
 			for (int i = 0; i < arr2.size(); i++){
 				ansArray[i + this->size()] = arr2[i];
 			}

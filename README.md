@@ -488,3 +488,11 @@ int const *ptr = &var;
   * using virtual base class
   * overriding
   * overriding and scope resolution `::`
+
+## Day 40 ([PDF](/PDF_Notes/Day-40.pdf))
+* Polymorphism
+  * Compile Time Polymorphism / Early Binding / Static linking
+    * Function overloading
+    * Operator overloading
+  * Run Time Polymorphism / Late Binding / Dynamic Binding or Linking
+    * Virtual Functions
