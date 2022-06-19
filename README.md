@@ -496,6 +496,7 @@ int const *ptr = &var;
     * Operator overloading
   * Run Time Polymorphism / Late Binding / Dynamic Binding or Linking
     * Virtual Functions
+* Friend Functions
 
 ## Day 41 ([PDF](/PDF_Notes/Day-41.pdf))
 * Abstraction 
